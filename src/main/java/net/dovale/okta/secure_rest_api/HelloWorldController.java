@@ -16,7 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class HelloWorldController {
 
-    @Autowired
+    @Autowire
     private mYprop prop;
 /*
     @GetMapping("/")
