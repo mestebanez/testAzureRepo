@@ -1,0 +1,21 @@
+= RESTful Notes API Guide
+Michael Estebanez;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:operation-curl-request-title: Example request
+:operation-http-response-title: Example response
+
+[[overview]]
+= Overview
+
+
+[[resources_notes_create]]
+== Creating a note
+
+A `POST` request is used to create a note. We can add as much or as little information around the nature of the operation and the context that we may be testing
+
+operation::post-test[snippets='curl-request,request1-fields,http-request,http-response']
